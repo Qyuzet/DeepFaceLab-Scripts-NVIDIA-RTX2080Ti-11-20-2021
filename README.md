@@ -25,14 +25,65 @@ Before using these scripts, please ensure that you have DeepFaceLab installed an
 
 Here is a list of the available batch scripts and their functionalities:
 
-- `1_clear_workspace.bat`: Clears the workspace.
-- `2_extract_images_from_video_data_src.bat`: Extracts images from the source video.
-- `3_cut_video_drop_video_on_me.bat`: Cuts the video; drop the video file on this script to execute.
-- `3_extract_images_from_video_data_dst_full_face.bat`: Extracts images from the destination video.
-- `4_data_src_faceset_extract_manual.bat`: Manually extracts the faceset from the source data.
-- `5_data_dst_faceset_extract_manual.bat`: Manually extracts the faceset from the destination data.
-- ... (and so on for all scripts listed in your repository)
 
+- `clear workspace.bat`: Clears the workspace.
+- `merged mids.bat`: Merges mids files.
+- `merged to mp3.bat`: Merges to mp3.
+- `merged to video.bat`: Merges to video.
+- `merged to wav.bat`: Merges to wav.
+- `extract images from video.bat`: Extracts images from the video.
+- `extract images from video (skip black).bat`: Extracts images from the video, skipping black frames.
+- `extract images from video (start-end) MANUAL.bat`: Manually extracts images from the video between start and end points.
+- `arc faces.bat`: Performs arc face processing.
+- `arc faces (extract).bat`: Extracts arc faces.
+- `arc faces (extract) MANUAL.bat`: Manually extracts arc faces.
+- `arc faces (extract frames).bat`: Extracts arc faces from frames.
+- `arc faces (sort).bat`: Sorts arc faces.
+- `xSeg (faces) extract masks.bat`: Extracts masks for faces using xSeg.
+- `xSeg (faces) will upscale landmarks + cleanup.bat`: Upscales landmarks and cleans up using xSeg.
+- `xSeg (faces) will remove landmarks + cleanup.bat`: Removes landmarks and cleans up using xSeg.
+- `xSeg (faces) will faceset extract.bat`: Extracts faceset using xSeg.
+- `xSeg (faces) will faceset pack.bat`: Packs faceset using xSeg.
+- `xSeg (faces) faceset unpack.bat`: Unpacks faceset using xSeg.
+- `xSeg (dst) faces will extract masks.bat`: Extracts masks for destination faces using xSeg.
+- `xSeg (dst) faces will upscale landmarks + cleanup.bat`: Upscales landmarks and cleans up destination faces using xSeg.
+- `xSeg (dst) faces will remove landmarks + cleanup.bat`: Removes landmarks and cleans up destination faces using xSeg.
+- `xSeg (dst) faces will faceset extract.bat`: Extracts faceset for destination faces using xSeg.
+- `xSeg (dst) faces will faceset pack.bat`: Packs faceset for destination faces using xSeg.
+- `xSeg (dst) faces faceset unpack.bat`: Unpacks faceset for destination faces using xSeg.
+- `xSeg config.bat`: Configures xSeg.
+- `xSeg align dst.bat`: Aligns destination faces using xSeg.
+- `xSeg sort aligned results.bat`: Sorts aligned results using xSeg.
+- `xSeg will dst extract masks.bat`: Extracts masks for destination using xSeg.
+- `xSeg will dst pack masks.bat`: Packs masks for destination using xSeg.
+- `xSeg will dst unpack masks.bat`: Unpacks masks for destination using xSeg.
+- `xSeg (XSeg dataset) edit.bat`: Edits xSeg dataset.
+- `xSeg (XSeg dataset) edit while face swap - MASK.bat`: Edits xSeg dataset while face swapping - MASK.
+- `xSeg (XSeg dataset) edit while face swap.bat`: Edits xSeg dataset while face swapping.
+- `xSeg (XSeg dataset) dst mask.bat`: Applies mask to xSeg dataset.
+- `xSeg (XSeg dataset) dst mask - remove.bat`: Removes mask from xSeg dataset.
+- `xSeg (XSeg dataset) trained mask - apply.bat`: Applies trained mask to xSeg dataset.
+- `xSeg (XSeg dataset) trained mask.bat`: Trains mask on xSeg dataset.
+- `xSeg (XSeg dataset) mask.bat`: Applies mask to xSeg dataset.
+- `xSeg (XSeg dataset) mask - remove.bat`: Removes mask from xSeg dataset.
+- `xSeg (XSeg dataset) mask - apply.bat`: Applies mask to xSeg dataset.
+- `xSeg train.bat`: Trains xSeg model.
+- `xSeg export as arc faceset.bat`: Exports as arc faceset.
+- `fix hair.bat`: Fixes hair in the images.
+- `fix mouth.bat`: Fixes mouth in the images.
+- `xSeg AMP.bat`: Uses xSeg AMP.
+- `train Quick.bat`: Quick training.
+- `train.bat`: Full training.
+- `merge SAD.bat`: Merges using SAD.
+- `merge D.bat`: Merges using D.
+- `merge Kam.bat`: Merges using Kam.
+- `merged to mp3.bat`: Merges to mp3.
+- `merged to video.bat`: Merges to video.
+- `merged to wav.bat`: Merges to wav.
+- `LICENSE`: The license file.
+- `update.bat`: Updates the scripts.
+- `run.bat`: Runs the
+  
 ## Usage
 
 To use these scripts, navigate to the `scripts` directory and run the desired script by double-clicking on it or executing it from the command line. For example:
